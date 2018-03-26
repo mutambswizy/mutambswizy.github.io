@@ -1,0 +1,114 @@
+.blink {   
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+    
+
+
+
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+        color: #6a3da3;
+    }
+
+    25% {
+        color: #ff0000;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        color: #6a3da3;
+    }
+
+    75% {
+        opacity: 0;
+        color: #6a3da3;
+    }
+
+    100% {
+        opacity: 1;
+        color: #ff0000;
+    }
+}
+
+
+
+.blink-blog {   
+    animation-duration: 5000ms;
+    animation-name: blink-blog;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes blink-blog {
+    0% {
+        opacity: 1;
+        color: #6a3da3;
+    }
+
+    25% {
+        color: #ff0000;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        color: #6a3da3;
+    }
+
+    75% {
+        opacity: 0;
+        color: #94c523;
+    }
+
+    100% {
+        opacity: 1;
+        color: #ff0000;
+    }
+}
+
+
+
+
+.blink-news {   
+    animation-duration: 16000ms;
+    animation-name: blink-news;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding-bottom:10px;
+    /*color:#EE3B24!important;*/
+    width: 45%;
+
+
+
+}
+@keyframes blink-news {
+    0% {
+        opacity: 1;
+        color: #fff;
+    }
+
+    25% {
+        color: #fff;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        color: #fff;
+    }
+
+    75% {
+        opacity: 0;
+        color: #fff;
+    }
+
+    100% {
+        opacity: 1;
+        color: #fff;
+    }
+}
